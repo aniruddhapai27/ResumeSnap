@@ -10,9 +10,9 @@ function Resume() {
   const { state } = useResume();
 
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex  justify-center items-center px-5">
       <div
-        className="w-[21cm] h-[1093px] bg-white p-4"
+        className="w-[21cm] h-[1093px] bg-white px-4"
         style={{
           fontFamily: "Arial, sans-serif",
           fontSize: "10pt", // Adjust font size to fit more content
@@ -23,13 +23,13 @@ function Resume() {
         }}
       >
         {/* Resume Header */}
-        <div className="mb-2">{state.details && <Details />}</div>
+        <div className="mb-1">{state.details && <Details />}</div>
 
         {/* Skills Section */}
         {state.skills && state.skills.length > 0 && state.skills[0] !== "" && (
-          <div className="mb-6">
+          <div>
             <Skills />
-            <div className="border-t border-gray-300 my-4"></div>
+            <div className="border-t border-gray-300 my-3"></div>
           </div>
         )}
 
@@ -37,9 +37,9 @@ function Resume() {
         {state.experience &&
           state.experience.length > 0 &&
           state.experience[0].title !== "" && (
-            <div className="mb-6">
+            <div>
               <Experience />
-              <div className="border-t border-gray-300 my-4"></div>
+              <div className="border-t border-gray-300 my-3"></div>
             </div>
           )}
 
@@ -47,9 +47,9 @@ function Resume() {
         {state.education &&
           state.education.length > 0 &&
           state.education[0].name !== "" && (
-            <div className="mb-6">
+            <div className="">
               <Education />
-              <div className="border-t border-gray-300 my-4"></div>
+              <div className="border-t border-gray-300 my-3"></div>
             </div>
           )}
 
@@ -57,9 +57,9 @@ function Resume() {
         {state.projects &&
           state.projects.length > 0 &&
           state.projects[0].title !== "" && (
-            <div className="mb-6">
+            <div className="">
               <Projects />
-              <div className="border-t border-gray-300 my-4"></div>
+              <div className="border-t border-gray-300 my-3 "></div>
             </div>
           )}
 

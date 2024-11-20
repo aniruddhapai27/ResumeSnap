@@ -9,6 +9,8 @@ function Home() {
         className="absolute inset-0 bg-[url('../../imagebg.png')] bg-no-repeat bg-cover bg-center opacity-40"
         style={{
           animation: "move-background 60s linear infinite",
+          backgroundPosition: "center",
+          backgroundSize: "100% 200%",
         }}
       ></div>
 

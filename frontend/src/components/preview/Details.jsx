@@ -13,7 +13,7 @@ function Details() {
   return (
     <div>
       {/* Header */}
-      <header className="border-b-2 border-black p-4 text-center">
+      <header className="border-b-2 border-black px-4 py-2 text-center">
         <h1 className="text-2xl font-bold leading-tight">
           {state?.details?.name || "Your Name"}
         </h1>

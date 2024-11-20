@@ -3,7 +3,7 @@ import { useResume } from "@/contexts/ResumeContext";
 function Hobbies() {
   const { state } = useResume();
   return (
-    <div className="py-2">
+    <div className="py-3">
       {" "}
       {/* Reduced padding top for better fitting */}
       {state.hobbies.length !== 0 && state.hobbies?.[0]?.trim() !== "" && (

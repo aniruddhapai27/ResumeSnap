@@ -42,9 +42,9 @@ function UserData() {
   };
 
   return (
-    <div className="flex w-full">
+    <div className="flex flex-col lg:flex-row w-full">
       {/* Sidebar */}
-      <div className="w-1/3 border-r-2 p-4">
+      <div className="w-full lg:w-1/3  p-4 lg:h-screen">
         <Options
           options={optionsArr}
           selectedOption={optionsArr[selectedOption]}
@@ -53,7 +53,7 @@ function UserData() {
       </div>
 
       {/* Main Content */}
-      <div className="w-full border-2 border-black h-auto p-10">
+      <div className="w-full border-2 border-black h-auto p-10 lg:p-6 rounded-md   ">
         {/* Render the corresponding component based on the selected option */}
         {optionComponents[optionsArr[selectedOption]]}
 

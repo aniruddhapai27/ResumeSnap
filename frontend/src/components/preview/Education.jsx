@@ -3,7 +3,7 @@ import { useResume } from "@/contexts/ResumeContext";
 function EducationPreview() {
   const { state } = useResume();
   return (
-    <div className="py-1">
+    <div>
       {state.education &&
         state.education.length !== 0 &&
         state.education[0].name !== "" && (
