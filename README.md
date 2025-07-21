@@ -12,6 +12,5 @@ ResumeSnap is a modern, responsive web application that allows users to create p
 - 💾 Option to download or export resume (if applicable)
 
 ## 🛠 Tech Stack
-
 - **Frontend**: React.js, Tailwind CSS
 - **Deployment**: Vercel
