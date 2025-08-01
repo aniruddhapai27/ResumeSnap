@@ -5,7 +5,6 @@
 ResumeSnap is a modern, responsive web application that allows users to create professional resumes quickly and easily.
 
 ## ✨ Features
-
 - 🧑‍💼 Build and preview resumes in real time
 - 📝 Easy-to-fill forms for personal, education, and experience details
 - 🎨 Clean and printable resume layout
