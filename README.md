@@ -1,5 +1,4 @@
 # ResumeSnap
-
 🎯 **Live Site**: [https://resume-snap.vercel.app](https://resume-snap.vercel.app)
 
 ResumeSnap is a modern, responsive web application that allows users to create professional resumes quickly and easily.
